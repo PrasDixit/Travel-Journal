@@ -1,12 +1,17 @@
-import React from 'react';
-import './App.css';
+import React from "react";
+import Header from "./Header";
+import Card from "./Card";
+import "./App.css";
 
-function App() {
+const App = () => {
   return (
-    <p>
-      Cleanedup React App
-    </p>
+    <>
+      <Header />
+      <div className="container">
+        <Card />
+      </div>
+    </>
   );
-}
+};
 
 export default App;
